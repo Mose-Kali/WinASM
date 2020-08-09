@@ -56,3 +56,12 @@ If A=B,goto next command,or jump over next command
 B=log(A)
 ##### RAND ${A}
 A=rand()
+### Controls
+##### JMP ${N}
+Jump to the number N of commands from next command.
+##### FUNC ${x^4} ${x^3} ${x^2} ${x} ${c} ${RangeMin} ${RangeMax} ${Offset} ${Timewait}
+It's a brick command last to the last END command.
+It will enmu all value from RangeMin to RangeMax,each loop add Offset.
+y=${x^4}*x^4+${x^3}*x^3+${x^2}*x^2+${x^1}*x+${c}
+The value of x and the value of y will add in value list and name as "__FUNC__N__X"(Function result),"__FUNC__N__Y"(Function result),"__FUNC__X"(Screen Point),"__FUNC__Y"(Screen Point),you can use them as value by $ operator.
+Then it will sleep for Timewait millionseconds before next loop
