@@ -1,0 +1,6 @@
+LIBRARY WSMEncoder
+
+EXPORTS
+LoadWSM
+Prepare
+SetCmdQueue

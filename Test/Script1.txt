@@ -1,0 +1,2 @@
+MSG aaa aaa 7 7 1 1000
+END

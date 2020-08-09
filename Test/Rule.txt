@@ -1,0 +1,10 @@
+MSG MessageText CaptionText X_ray Y_ray Type Timewait
++Error icon 1
++Infomation icon 2
++Attention icon 3
++Question icon 4
+
+FUNC x^4 x^3 x^2 x^1 c RangeMin RangMax Offset MessageText CaptionText Type Timewait function_Timewait
+
+ADO AudioPath
+；https://www.bilibili.com/bangumi/play/ep322945

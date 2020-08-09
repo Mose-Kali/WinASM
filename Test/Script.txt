@@ -1,0 +1,16 @@
+int a 10
+double b 7.07
+char c c
+string s good
+int dd 1
+int da 2
+FUNC 0 0 0 0 0 1 10 1 100
+COS $dd $end1
+SIN $dd $end2
+TAN $dd $end3
+LOG $dd $end4
+POW 2 2 $end5
+SQRT 4 $end6
+RAND 1 10 $end7
+END
+END

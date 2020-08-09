@@ -1,0 +1,51 @@
+SLEP 8019
+MSG 心在东人在西 Lyirc 960 540 2 10000
+SLEP 987
+MSG 日夜思念故里 Lyirc 960 540 2 10000
+SLEP 2999
+MSG 身背复兴大义日夜未曾忘记 Lyirc 960 540 2 10000
+SLEP 6001
+MSG 甩锅给故里不过是演一出戏 Lyirc 960 540 2 10000
+SLEP 5038
+MSG 作为卧底这是最高的机密 Lyirc 960 540 2 10000
+SLEP 6969
+MSG 白日里我带上伪装 Lyirc 960 540 2 10000
+SLEP 2994
+MSG 信仰在心中藏 Lyirc 960 540 2 10000
+SLEP 2998
+MSG 夜晚倍思故乡不觉泪汪汪 Lyirc 960 540 2 10000
+SLEP 5999
+MSG 国歌轻轻唱 Lyirc 960 540 2 10000
+SLEP 2067
+MSG 党的教诲心中装 Lyirc 960 540 2 10000
+SLEP 2965
+MSG 八荣八耻让我浑身散光芒 Lyirc 960 540 2 10000
+SLEP 6978
+MSG 建国的光 Lyirc 960 540 2 10000
+SLEP 2993
+MSG 照在美大地上 Lyirc 960 540 2 10000
+SLEP 2996
+MSG 让社会主义的光芒恩泽这片疆 Lyirc 960 540 2 10000
+SLEP 5999
+MSG 建国的光直面病毒不慌 Lyirc 960 540 2 10000
+SLEP 5095
+MSG 让自由的芬芳遍布这片疆 Lyirc 960 540 2 10000
+SLEP 17919
+MSG 华夏的光 Lyirc 960 540 2 10000
+SLEP 2989
+MSG 全人类的希望 Lyirc 960 540 2 10000
+SLEP 2995
+MSG 它屹立在世界东方未曾被遗忘 Lyirc 960 540 2 10000
+SLEP 6004
+MSG 美帝的光民众欠些智商 Lyirc 960 540 2 10000
+SLEP 5088
+MSG 为自由愿意尝孟婆做的汤 Lyirc 960 540 2 10000
+SLEP 6930
+MSG 建国的光照在美大地上 Lyirc 960 540 2 10000
+SLEP 5073
+MSG 让社会主义的光芒恩泽这片疆 Lyirc 960 540 2 10000
+SLEP 6907
+MSG 建国的光何时能归故乡 Lyirc 960 540 2 10000
+SLEP 5086
+MSG 多想看国旗在这土地飘扬 Lyirc 960 540 2 10000
+END
