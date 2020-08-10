@@ -1,5 +1,5 @@
 # WinASM
-WinASM(Or WSM,Windows ASM Langauge) Project is an unserious project.With this code,you can make a joke with a simple(or hard,it depends on you :-) ) script file on your friend's computer.It will allow the script and pop message windows,image windows,vedio windows,play background music,execuse other programs.It's easy to use.You only need about 200KB to save its runtime enviroment.
+WinASM(Or WSM,Windows ASM Langauge) Project is an unserious project.With this code,you can make a joke with a simple(or hard,it depends on you :-) ) script file on your friend's computer.It will allow the script and pop message windows,image windows,vedio windows,play background music,execuse other programs.It's easy to use.You only need about 200KB to save its runtime enviroment.\n
 Let's learn something about it!
 
 ### How to install it?
@@ -20,7 +20,7 @@ You just need copy WinASMExplainer.exe,WSMEncoder.dll,WindowsExLib.dll and your 
 ### Said so much where is the grammar?
 Scroll down...
 ## Grammar
-### Variable Operation
+### Variable Operation(3.0 Support only)
 #### Define
 Garmmar:[Type] [Name] [InitValue]
 Type can be string,int,double,char
@@ -57,11 +57,38 @@ B=log(A)
 ##### RAND ${A}
 A=rand()
 ### Controls
-##### JMP ${N}
+##### JMP ${N}(3.0 Only)
 Jump to the number N of commands from next command.
-##### FUNC ${x^4} ${x^3} ${x^2} ${x} ${c} ${RangeMin} ${RangeMax} ${Offset} ${Timewait}
+##### FUNC ${x^4} ${x^3} ${x^2} ${x} ${c} ${RangeMin} ${RangeMax} ${Offset} ${Timewait}(2.0 & 3.0)
 It's a brick command last to the last END command.
-It will enmu all value from RangeMin to RangeMax,each loop add Offset.
-y=${x^4}*x^4+${x^3}*x^3+${x^2}*x^2+${x^1}*x+${c}
-The value of x and the value of y will add in value list and name as "__FUNC__N__X"(Function result),"__FUNC__N__Y"(Function result),"__FUNC__X"(Screen Point),"__FUNC__Y"(Screen Point),you can use them as value by $ operator.
-Then it will sleep for Timewait millionseconds before next loop
+It will enmu all value from RangeMin to RangeMax,each loop add Offset.\n
+y=${x^4}*x^4+${x^3}*x^3+${x^2}*x^2+${x^1}*x+${c}\n
+(3.0)The value of x and the value of y will add in value list and name as "__FUNC__N__X"(Function result),"__FUNC__N__Y"(Function result),"__FUNC__X"(Screen Point),"__FUNC__Y"(Screen Point),you can use them as value by $ operator.\n
+(2.0)Use \# symbol to replease the value as x or y(On x value's palace will replace as x value,y as well.Only can use in MSG command)\n
+Then it will sleep for Timewait millseconds before next loop
+##### FUNC ${x^4} ${x^3} ${x^2} ${x} ${c} ${RangeMin} ${RangeMax} ${Offset} ${Msg} ${Title} ${Type} ${BoxTimewait} ${Timewait}(1.0)
+It will enmu all value from RangeMin to RangeMax,each loop add Offset.\n
+y=${x^4}*x^4+${x^3}*x^3+${x^2}*x^2+${x^1}*x+${c}\n
+It will pop a messagebox with Msg as message and Title as box title with a type.The messagebox will wait BoxTimewait millseconds and desappear.Type as same as MSG command's type parameter.
+Then it will sleep for Timewait millseconds before next loop
+##### END
+END command is the end symbol of the script or a code brick.
+##### SLEP ${Time}
+Wait Time millseconds before next command
+### Windows Commands
+##### MSG ${Text} ${Title} ${x} ${y} ${Type} ${Timewait}(3.0 Supports $ operator,2.0 Supports # operator,1.0 only supports const value)
+It will pop a messagebox with Msg as message and Title as box title with a type on point (x,y).The messagebox will wait Timewait millseconds and desappear.\n
+Types:1(Error Icon),2(Infomation Icon),3(Attention Icon),4(Question Icon)
+##### IMG ${x} ${y} ${Timewait} ${ImgPath}
+It will load a bmp image(BMP file only!!!)and show it in a dialog on point(x,y).It will disappear when Timewait millseconds past.
+### Media Commands
+##### ADO ${MusicPath}
+It will play music in background,wav files only.
+##### VDO ${x} ${y} ${cx} ${cy} ${Timewait} ${VedioPath}
+It will play vedio in a vedio dialog on point(x,y) whitch height is cy and width is cx.It will disappear when Timewait millseconds past.
+### System Commands
+##### CMD ${Program}
+It will execuse a program(full path or name).
+\n\n\n
+Here are the grammar have fun! :-)
+##And Remember:NO ZUO NO DIE!!!
